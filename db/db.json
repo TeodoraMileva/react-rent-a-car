@@ -1,0 +1,198 @@
+{
+  "customers": [
+    {
+      "id": "6299fe0c140e17c35d827067",
+      "name": "Beulah Wade",
+      "email": "beulahwade@nurplex.com",
+      "phone": "+359 (921) 570-3835",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": "6299fe0c6cd3decf1ca3f628",
+      "name": "Gay Barrett",
+      "email": "gaybarrett@nurplex.com",
+      "phone": "+359 (899) 564-3637",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": "6299fe0c8bf04ea862eb171a",
+      "name": "Kasey Ingram",
+      "email": "kaseyingram@nurplex.com",
+      "phone": "+359 (951) 525-2302",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": "6299fe0c7249cb767e6fc793",
+      "name": "Patrick Austin",
+      "email": "patrickaustin@nurplex.com",
+      "phone": "+359 (808) 531-3661",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "name": "Jessica O'conell",
+      "email": "jo@mail.com",
+      "phone": "078967554",
+      "id": "pK9aGaU",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "name": "Teodora Mileva",
+      "email": "teodoramileva64@gmail.com",
+      "phone": "0877467679",
+      "password": "123",
+      "id": "HokZWzi",
+      "role": "admin"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "6299f831e83f9b9708111b23",
+      "vehicleType": "Economy",
+      "brand": "Honda",
+      "model": "Model T",
+      "constructionYear": "2015",
+      "fuelType": "petrol",
+      "numSeats": 5,
+      "picture": "https://cars.usnews.com/static/images/Auto/izmo/i159614825/2022_honda_accord_sedan_angularfront.jpg",
+      "pricePerDay": "30",
+      "count": 3
+    },
+    {
+      "id": "6299f831b63661e887fca799",
+      "vehicleType": "Luxury",
+      "brand": "Mercedes",
+      "model": "A Class",
+      "constructionYear": "2019",
+      "fuelType": "hybrid",
+      "numSeats": 5,
+      "picture": "https://cdn.svolavacky.cz/wp-content/uploads/2020/09/Mercedes-Benz-A-Class-2019-axle-bolts-768x433.jpg",
+      "pricePerDay": 60,
+      "count": 2
+    },
+    {
+      "id": "6299f831dda6e9f9915a1b1d",
+      "vehicleType": "SUV",
+      "brand": "Mazda",
+      "model": "CX 5",
+      "constructionYear": "2017",
+      "fuelType": "diesel",
+      "numSeats": 7,
+      "picture": "https://i0.wp.com/kakda.org/wp-content/uploads/2022/02/Mazda-CX-5.jpg?resize=640%2C422&ssl=1",
+      "pricePerDay": 40,
+      "count": 1
+    },
+    {
+      "vehicleType": "SUV",
+      "brand": "Citroen",
+      "model": "C5 Aircross",
+      "constructionYear": "2018",
+      "fuelType": "diesel",
+      "numSeats": "5",
+      "pricePerDay": "50",
+      "count": "3",
+      "picture": "https://trud.bg/public/images/articles/2022-01/11-1-6kol_6420709188405918496_original.jpg",
+      "id": "2buA4A5"
+    },
+    {
+      "vehicleType": "Luxury",
+      "brand": "Honda",
+      "model": "Civic 11",
+      "constructionYear": "2018",
+      "fuelType": "diesel",
+      "numSeats": "5",
+      "pricePerDay": "30",
+      "count": "3",
+      "picture": "https://automedia.investor.bg/media/files/resized/uploadedfiles/640x0/f31/4b9b012ad18662677c89d8d95b709f31-04-1.jpg",
+      "id": "VqA8UKF"
+    },
+    {
+      "vehicleType": "Luxury",
+      "brand": "Audi",
+      "model": "A4",
+      "constructionYear": "2017",
+      "fuelType": "petrol",
+      "numSeats": "5",
+      "pricePerDay": "50",
+      "count": 1,
+      "picture": "https://audimediacenter-a.akamaihd.net/system/production/media/77766/images/910025eb9db8aea52ec0a693c4e8c2e5d29230ea/A195681_blog.jpg?1595847098",
+      "id": "RRP4VF-"
+    }
+  ],
+  "rentals": [
+    {
+      "customerId": "pK9aGaU",
+      "vehicleId": "6299f831b63661e887fca799",
+      "startDateTime": "2022-06-12T10:12",
+      "endDateTime": "2022-06-15T10:12",
+      "id": 1
+    },
+    {
+      "customerId": "HokZWzi",
+      "vehicleId": "RRP4VF-",
+      "startDateTime": "2022-06-14T10:14",
+      "endDateTime": "2022-06-16T10:14",
+      "id": 2
+    },
+    {
+      "customerId": "HokZWzi",
+      "vehicleId": "6299f831b63661e887fca799",
+      "startDateTime": "2022-06-19T10:29",
+      "endDateTime": "2022-06-20T10:29",
+      "id": 3
+    },
+    {
+      "customerId": "6299fe0c8bf04ea862eb171a",
+      "vehicleId": "2buA4A5",
+      "startDateTime": "2022-06-26T10:33",
+      "endDateTime": "2022-06-28T10:33",
+      "id": 4
+    },
+    {
+      "customerId": "HokZWzi",
+      "vehicleId": "6299f831e83f9b9708111b23",
+      "startDateTime": "2022-06-13T10:48",
+      "endDateTime": "2022-06-14T10:48",
+      "id": 5
+    },
+    {
+      "customerId": "6299fe0c6cd3decf1ca3f628",
+      "vehicleId": "VqA8UKF",
+      "startDateTime": "2022-06-14T10:58",
+      "endDateTime": "2022-06-19T10:58",
+      "id": 6
+    },
+    {
+      "customerId": "HokZWzi",
+      "vehicleId": "RRP4VF-",
+      "startDateTime": "2022-06-15T16:10",
+      "endDateTime": "2022-06-16T16:10",
+      "id": 7
+    },
+    {
+      "customerId": "HokZWzi",
+      "vehicleId": "6299f831dda6e9f9915a1b1d",
+      "startDateTime": "2022-06-13T18:43",
+      "endDateTime": "2022-06-14T18:43",
+      "id": 8
+    },
+    {
+      "customerId": "pK9aGaU",
+      "vehicleId": "6299f831dda6e9f9915a1b1d",
+      "startDateTime": "2022-10-26T15:13",
+      "endDateTime": "2022-10-27T15:13",
+      "id": 9
+    },
+    {
+      "customerId": "pK9aGaU",
+      "vehicleId": "6299f831e83f9b9708111b23",
+      "startDateTime": "2024-03-02T14:37",
+      "endDateTime": "2024-03-03T14:37",
+      "id": 10
+    }
+  ]
+}
